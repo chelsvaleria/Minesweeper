@@ -158,9 +158,9 @@ public class MSButton
         else if( clicked && mines.contains(this) ) 
              fill(255,0,0);
         else if(clicked)
-            fill( 255 );
+            fill(255);
         else 
-            fill( 255, 182, 193 );
+            fill(255,182,193);
 
         rect(x, y, width, height);
         fill(0);
